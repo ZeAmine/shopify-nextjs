@@ -16,7 +16,7 @@ export default function Home({ products }) {
         <meta property="og:description" content="Modern eCommerce. Static Site Generation" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://shopynext.vercel.app/" />
-        <meta property="og:image" content="https://shopynext.vercel.app/images/share.jpg" />
+        <meta property="og:image" content="https://shopynext.vercel.app/share.jpg" />
         <meta property="og:site_name" content="Modern eCommerce" />
       </Head>
       <ProductList products={products} />
