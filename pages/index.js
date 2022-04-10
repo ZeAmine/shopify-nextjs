@@ -1,12 +1,12 @@
-import {getProductsInCollection} from "../lib/shopify";
+import { getProductsInCollection } from "../lib/shopify";
+import Head from "next/head";
 
 //components
 import ProductList from "../components/ProductList";
-import {Head} from "next/document";
 
 export default function Home({ products }) {
   return (
-    <div>
+    <>
       <Head>
         <title>Modern eCommerce</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -20,7 +20,7 @@ export default function Home({ products }) {
         <meta property="og:site_name" content="Modern eCommerce" />
       </Head>
       <ProductList products={products} />
-    </div>
+    </>
   )
 }
 
